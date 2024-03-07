@@ -320,7 +320,7 @@ df_shape["POINT_ID"]=df_shape["POINT_ID"].astype(int)
 for i in range(18725,19000):
     print(i)
     try:
-        # get soild id
+        # get soil id
         soil_id=df_soil["POINTID"][i]
         samp_date=df_soil["SURVEY_DATE"][i]
         
