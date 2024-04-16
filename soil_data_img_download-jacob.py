@@ -462,7 +462,7 @@ for i in range(18725,19000):
             for subfolder in subfolders_to_delete:
                 print(f"Deleting subfolder: {subfolder}")
                 # Uncomment the line below to actually delete the subfolder and its contents
-                # shutil.rmtree(subfolder)
+                shutil.rmtree(subfolder)
                 
             return subfolders_to_delete
         if __name__ == "__main__":
